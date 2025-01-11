@@ -19,9 +19,20 @@
 ---
 
 ### **Getter and Setter**
-- **Getter**: Method ที่มี `return` ใช้สำหรับรับค่าเพื่อแสดงผล โดยไม่มีการกำหนดค่าใน parameter  
+- **Getter**: Method ที่มี `return` ใช้สำหรับรับค่าเพื่อแสดงผล โดยไม่มีการกำหนดค่าใน parameter 
+```java
+//Getter 
+public String getName() { 
+   return name; 
+}
+```
 - **Setter**: Method ที่มี parameter ใช้สำหรับกำหนดค่าให้ตัวแปร  
-
+```java
+// Setter สำหรับ name  
+public  void  setName(String name) { 
+   this.name = name; 
+}
+```
 ---
 
 ### **Static Keyword**
@@ -89,6 +100,25 @@
   - คลาสต้องเป็น `abstract`  
   - ต้องมี `abstract method` อย่างน้อย 1 ตัว  
 
+```java
+// Abstract Class  
+abstract  class  Animal { 
+   private String name; 
+
+   // Constructor  
+   public  Animal(String name) {   
+      this.name = name; 
+   } 
+   
+   // Non-Abstract Method (มี implementation)  
+   public  void  display() { 
+      System.out.println("This is an animal named: " + name); 
+   }
+
+   // Abstract Method (ไม่มี implementation)   
+   public  abstract  voidsound();
+}
+```
 ---
 
 ### **Interface**
@@ -143,6 +173,19 @@ Polymorphism แบ่งออกเป็น 2 แบบ:
 ### **Constructor**
 - Constructor เป็น method พิเศษในคลาสที่ทำงานอัตโนมัติเมื่อสร้าง object  
 - ใช้สำหรับกำหนดค่าเริ่มต้นให้กับตัวแปรในคลาส  
+
+```java
+public class Student {
+   private String name;
+   private int phone;
+  
+   // Constructor  
+   public  Student(String name, int phone) {   
+      this.name = name; 
+      this.phone = phone;
+   } 
+}
+```
 
 ---
 
