@@ -143,7 +143,33 @@ abstract  class  Animal {
 **ข้อดีของ `final`**:
 1. ป้องกันไม่ให้ตัวแปรสำคัญถูกเปลี่ยนค่า  
 2. รักษาความปลอดภัยของเมธอดสำคัญจากการถูก Override  
-3. ป้องกันการสืบทอดคลาสที่ไม่ควรแก้ไข  
+3. ป้องกันการสืบทอดคลาสที่ไม่ควรแก้ไข
+
+- **Final Variable (ตัวแปร)**
+```java 
+public  class  Main { 
+    public  static  void  main(String[] args) { 
+        final  int  MAX_SPEED  =  120; // Final Variable (ตัวแปร)
+        System.out.println("Max Speed: " + MAX_SPEED); 
+        
+        MAX_SPEED = 150; // Error: Cannot assign a value to final variable }
+```
+
+- **Final Method (เมธอด)**
+```java
+class  Vehicle { 
+   public  final  void  move() { // Final Method (เมธอด)
+      System.out.println("Vehicle is moving"); 
+   } 
+}
+
+class  Car  extends  Vehicle { 
+// Error: Cannot override the final method from Vehicle  
+// public void move() {  
+//     System.out.println("Car is moving");  
+// } 
+}
+```
 
 ---
 
