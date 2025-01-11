@@ -29,7 +29,7 @@ public String getName() {
 - **Setter**: Method ที่มี parameter ใช้สำหรับกำหนดค่าให้ตัวแปร  
 ```java
 // Setter สำหรับ name  
-public  void  setName(String name) { 
+public void setName(String name) { 
    this.name = name; 
 }
 ```
