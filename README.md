@@ -63,9 +63,9 @@ public void setName(String name) {
 ---
 
 ### **Encapsulation**
-**Encapsulation** เป็นหลักการซ่อนข้อมูล (Data Hiding) และอนุญาตให้เข้าถึงข้อมูลผ่าน Getter และ Setter เท่านั้น  
+#### **Encapsulation** เป็นหลักการซ่อนข้อมูล (Data Hiding) และอนุญาตให้เข้าถึงข้อมูลผ่าน Getter และ Setter เท่านั้น  
 
-- **คุณสมบัติของ Encapsulation**:  
+#### คุณสมบัติของ Encapsulation**:  
   1. ตัวแปรในคลาสกำหนดเป็น `private`  
   2. ใช้ Getter และ Setter เพื่อเข้าถึงตัวแปร  
 
