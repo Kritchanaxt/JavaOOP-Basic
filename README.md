@@ -36,7 +36,7 @@ public  void  setName(String name) {
 ---
 
 ### **Static Keyword**
-**Static** เป็นคีย์เวิร์ดที่ใช้กำหนดสมาชิกในคลาส (ตัวแปรหรือเมธอด) ให้มีพฤติกรรมร่วมกันในทุก object ของคลาส  
+#### **Static** เป็นคีย์เวิร์ดที่ใช้กำหนดสมาชิกในคลาส (ตัวแปรหรือเมธอด) ให้มีพฤติกรรมร่วมกันในทุก object ของคลาส  
 - **Static Variable**: ตัวแปรที่ใช้ร่วมกันทุก object  
   ```java
   public class Example {
@@ -63,7 +63,7 @@ public  void  setName(String name) {
 ---
 
 ### **Encapsulation**
-**Encapsulation** เป็นหลักการซ่อนข้อมูล (Data Hiding) และอนุญาตให้เข้าถึงข้อมูลผ่าน Getter และ Setter เท่านั้น  
+#### **Encapsulation** เป็นหลักการซ่อนข้อมูล (Data Hiding) และอนุญาตให้เข้าถึงข้อมูลผ่าน Getter และ Setter เท่านั้น  
 
 - **คุณสมบัติของ Encapsulation**:  
   1. ตัวแปรในคลาสกำหนดเป็น `private`  
@@ -133,7 +133,7 @@ abstract  class  Animal {
 ---
 
 ### **Final**
-**บริบทและผลกระทบ**:  
+#### **บริบทและผลกระทบ**:  
 | บริบท  | ผลกระทบ |
 |--------|----------|
 | ตัวแปร | ค่าของตัวแปรเปลี่ยนแปลงไม่ได้หลังจากกำหนดค่า |
@@ -148,7 +148,7 @@ abstract  class  Animal {
 ---
 
 ### **Polymorphism**
-Polymorphism แบ่งออกเป็น 2 แบบ:
+#### Polymorphism แบ่งออกเป็น 2 แบบ:
 1. **Overloading**:  
    - เมธอดที่มีชื่อเหมือนกัน แต่ parameter หรือการทำงานต่างกัน  
    - **ตัวอย่าง**:
