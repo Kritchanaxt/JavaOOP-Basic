@@ -239,4 +239,3 @@ public class Student {
   Dog dog = (Dog) animal; // Downcasting
   ```
 
----
